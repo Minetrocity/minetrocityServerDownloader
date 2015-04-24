@@ -1,0 +1,30 @@
+{
+  "name": "minetrocityServerDownloader",
+  "version": "1.0.0",
+  "description": "A utility to download Minecraft Servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Minetrocity/minetrocityServerDownloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Minetrocity/minetrocityServerDownloader/issues"
+  },
+  "keywords": [
+    "Minecraft",
+    "Minetrocity"
+  ],
+  "author": "richiepreece",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Minetrocity/minetrocityServerDownloader/issues"
+  },
+  "homepage": "https://github.com/Minetrocity/minetrocityServerDownloader",
+  "dependencies": {
+    "q": "^1.2.0",
+    "request": "^2.55.0"
+  }
+}
