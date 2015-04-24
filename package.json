@@ -30,5 +30,7 @@
     "del": "^1.1.1",
     "eslint": "^0.20.0",
     "tape": "^4.0.0"
+  },
+  "browserDependencies": {
   }
 }
