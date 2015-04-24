@@ -4,7 +4,8 @@
   "description": "A utility to download Minecraft Servers",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && node test"
+    "test": "npm run lint && node node_modules/tape/bin/tape tests/test-*.js",
+    "lint": "node ./node_modules/eslint/bin/eslint tests/ index.js && echo Lint passed."
   },
   "repository": {
     "type": "git",
@@ -17,14 +18,17 @@
     "Minecraft",
     "Minetrocity"
   ],
-  "author": "richiepreece",
+  "author": "Richie Preece <richie.preece@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Minetrocity/minetrocityServerDownloader/issues"
-  },
   "homepage": "https://github.com/Minetrocity/minetrocityServerDownloader",
   "dependencies": {
+    "mkdirp": "^0.5.0",
     "q": "^1.2.0",
     "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "eslint": "^0.20.0",
+    "tape": "^4.0.0"
   }
 }
